@@ -3,9 +3,10 @@
 ## Author: Omar Velazquez <ovelazquezj@gmail.com>
 
 ## Run config values, in order to keep clean this script, I have created a configuration file
-## by separately to help you to customize the use of run_analizis script, please README file
+## by separately to help you to customize the use of run_analyzis script, please README file
 ## for more details and examples
 source("config_run_analysis.R")
+initialize()
 
 ## Initializing working directories and Dataset files, 
 ## this function should validate your Working directory structure also Dataset sources
@@ -17,7 +18,7 @@ prepareDirectoryStructure<-function(){
     if(!existDataSourceDir()){
         unzipDatasetFileSource()
     }
-    print("READY TO GO!",,quote=FALSE)
+    print("READY TO GO!",quote=FALSE)
 }
 existDataSourceDir<-function(){
     if(!fileDirValidation(datasetsDirectory)){
