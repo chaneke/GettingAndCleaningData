@@ -325,15 +325,5 @@ summary(theSubset)
 ## 
 ```
 
-You can also embed plots, for example:
-
-
-```
-## Warning in data.matrix(x): NAs introduced by coercion
-```
-
-```
-## Error in plot.new(): figure margins too large
-```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
