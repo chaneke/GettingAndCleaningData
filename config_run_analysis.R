@@ -1,4 +1,11 @@
 ##
+## config_run_analysis
+## Author: Omar Velazquez <ovelazquezj@gmail.com>
+
+## in order to keep clean this script, I have created a configuration file
+## by separately to help you to customize the use of run_analyzis script, 
+## please go to README file for more details and examples
+
 ## Global variables
 ## do not change this values, are used by the Script to perform the main functionality
 dirSeparator<-"/"
