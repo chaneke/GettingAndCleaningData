@@ -7,24 +7,27 @@
 ## please go to README file for more details and examples
 
 ## Global variables
-## do not change this values, are used by the Script to perform the main functionality
 dirSeparator<-"/"
 urlDataSource<<-"https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
 zipFileName<<-"UCI_HAR_Dataset.zip"
-workingDirectory<<-paste(".",dirSeparator,sep="")
+workingDirectory<<-getwd()
 datasetsDirectory <<-paste("UCI HAR Dataset",dirSeparator,sep="")
-datasetFileType<-".txt"
+datasetFileType<<-".txt"
 
-###
+### Datasets source files
 feautresInfoFile <- paste("features_info",datasetFileType,sep="")
 featuresFile <- paste("features",datasetFileType,sep="")
 activityLabels <- paste("activity_labels",datasetFileType,sep="")
 trainId<-"train"
 testId<-"test"
-trainDir<-paste(trainId,"/",sep="")
-testDir<-paste(testId,"/",sep="")
-sets <- "X_"
-labels <- "y_"
+trainDir<-paste(datasetsDirectory,trainId,"/",sep="")
+testDir<-paste(datasetsDirectory,testId,"/",sep="")
+properLabels<-c("^t"="time",
+                "^f"="frequency",
+                "Acc"="accelerometer",
+                "Gyro"="gyroscope",
+                "Mag"="magnitude",
+                "BodyBody"="body")
 
 ### Error messages
 readmeFile<<-"please go to README.md file for more info"
