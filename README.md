@@ -31,6 +31,6 @@ License:
 ========
 The dataset licence could be read in ./UCI HAR Dataset/README.txt
 
-This script is distributed AS-IS and no responsibility implied or explicit can be addressed to the author or. Any commercial use is prohibited.
+This script is distributed AS-IS and no responsibility implied or explicit can be addressed to the author. Any commercial use is prohibited.
 
 Omar F. Velazquez-Juarez March 2015.
