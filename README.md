@@ -4,20 +4,27 @@ author: "Omar Velazquez"
 date: "21/03/2015"
 output: html_document
 ---
+==================================================================
+run_analysis.R Script 
+Course Project for Getting and Cleaning Data
+Version 0.5
+==================================================================
+Omar Velazquez
+==================================================================
+run_analysis.R Script has been created as part of the Course Project for Getting and Cleaning Data training course in coursera
+======================================
+Notes: 
+======
+- You need to install packages dplyr in order to run this script
+- configure_run_analysis.R file contains the Configuration Objects, is required by run_analysis.R script to works properly, you can update this file to fulfill your system special requirements
+- tools_run_analysis.R script contains the main functions used by run_analysis.R script, this file was created in order to keep clean and readable the script, because this was done with didactic propourses
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+For more information: ovelazquezj@gmail.com
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+License:
+========
+The dataset licence could be read in ./UCI HAR Dataset/README.txt
 
-```{r}
-summary(cars)
-```
+This script is distributed AS-IS and no responsibility implied or explicit can be addressed to the author or. Any commercial use is prohibited.
 
-You can also embed plots, for example:
-
-```{r, echo=FALSE}
-plot(cars)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
+Omar F. Velazquez-Juarez March 2012.

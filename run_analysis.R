@@ -30,6 +30,7 @@ runAnalysis<-function(){
     message("just a little bit more!!...")
     createFinalDataset()
     message("time flies when you want a capuccino!!...")
+    theSubset
 }
 createFinalDataset<-function(){
     finalDataset<-aggregate(. ~subject + activity, theSubset, mean)
