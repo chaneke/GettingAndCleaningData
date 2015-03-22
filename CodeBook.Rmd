@@ -1,5 +1,5 @@
 ---
-title: "README"
+title: "CodeBook"
 author: "Omar Velazquez"
 date: "21/03/2015"
 output: html_document
@@ -20,4 +20,3 @@ plot(cars)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
